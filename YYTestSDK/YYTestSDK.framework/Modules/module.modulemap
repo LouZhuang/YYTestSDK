@@ -1,0 +1,6 @@
+framework module YYTestSDK {
+  umbrella header "YYTestSDK.h"
+
+  export *
+  module * { export * }
+}
