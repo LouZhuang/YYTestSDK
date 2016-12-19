@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "YYTestSDK"
-  s.version      = "1.0.2"
+  s.version      = "1.0.3"
   s.summary      = "This is a TestSDK"
 
   s.description  = <<-DESC
@@ -21,13 +21,13 @@ Pod::Spec.new do |s|
 
   s.license      = "MIT"
 
-  s.author             = { "huanglch" => "416715288@qq.com" }
+  s.author             = { "huanglch" => "hulni13@163.com" }
 
   s.platform     = :ios, "8.0"
 
    #
 
-  s.source       = { :git => "https://github.com/LouZhuang/YYTestSDK.git", :tag => "1.0.2" }
+  s.source       = { :git => "https://github.com/LouZhuang/YYTestSDK.git", :tag => "1.0.3" }
 
   #s.source_files  = "Classes", "Classes/**/*.{h,m}"
   #s.exclude_files = "Classes/Exclude"
@@ -65,6 +65,6 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  # s.dependency "JSONKit", "~> 1.4"
+  s.dependency "MuPDF", "~> 1.9"
 
 end
